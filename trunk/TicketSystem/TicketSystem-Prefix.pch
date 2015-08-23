@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'TicketSystem' target in the 'TicketSystem' project
+//  http://www.ruyijian.com
+//    团队QQ群号：219357847
+//    团队主题：奋斗路上携手相伴！
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#import "ZYViewAnimation.h"
+#import <QuartzCore/QuartzCore.h>
+#import "TicketSystemGlobalConfig.h"
+#import "ZYNetworkHelper.h"
+#import "MBProgressHUD.h"
+#import "Uitil.h"
+
+#endif
